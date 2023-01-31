@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    overflow-x: hidden;
+}
+
+.banner{
+    width:100%;
+    height: 35em;
+    background: url("https://snapshotsforsoreeyes.files.wordpress.com/2012/05/img_2474_hdr.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-text{
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+    text-shadow: 3px .9px rgb(255, 242, 166);
+}
+
+.top-reg{
+    width: 30%;
+    margin: 7em 17em;
+    padding: 1.6rem;
+    border: none;
+    background:linear-gradient(0.25turn,#20BF55,#01BAEF);
+    box-shadow: .9px 1px 5px #a1ebff ;
+    color: azure;
+    font-size: 1.6rem;
+}
+
+#registration{
+    width: 100%;
+    height: auto;
+    margin-top: 3em;
+    display: block;
+}
+
+.registration-text{
+    text-align: center;
+}
+
+#login_form{
+    margin: auto;
+    width: 50%;
+    background-color: gainsboro;
+    height: auto;
+    border: 4px double #32d3ff;
+}
+
+input{
+    width: 90%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+label{
+    font-size: 1.6em;
+    margin-left: .7em;
+    line-height: 45px;
+}
+#login{
+    width: 95%;
+    margin: 1rem;
+    padding: 1rem;
+    background:linear-gradient(0.75turn,#83EAF1,#0a274e);
+    border: none;
+    font-size: 1rem;
+}
+
+#login:hover{
+    background:linear-gradient(0.75turn,#0a274e,#83EAF1);
+}
+
+#candidates{
+    width: 100%;
+    display: none;
+    margin-top: 3rem;
+}
+
+#candidates-brand{
+    display: none;
+}
+
+.cadidate-card{
+    width: 25%;
+    height: auto;
+    border: 1px solid gainsboro;
+    margin: 7px;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    border-radius: 3%;
+    box-shadow: .5px 4px 9px gray;
+}
+
+.profile-pic{
+    width: 100%;
+    height: 300px;
+    border-radius: 3%;
+}
+
+#vote{
+    width: 6em;
+    margin: 2em;
+    padding: 7px;
+    border: none;
+    box-shadow: .5px 5px 9px gray;
+    background: linear-gradient(0.26turn,#9DFBC8,#F5F186);
+}
+
+#vote:hover{
+    background: linear-gradient(0.26turn,#f7f260,#61faa6);
+}
+
+.hide{
+    display: none;
+    visibility: hidden;
+}
+
+h2{
+    text-align: center;
+    font-size: 3em;
+    margin: 1em;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bar{
+    width: 99%;
+    height: 1em;
+    border:1px solid grey ;
+    margin: auto;
+    padding: 3px;
+}
+
+#main-footer{
+    background: linear-gradient(0.25turn,#20BF55,#01BAEF);
+    color: #fff;
+    min-height: 180px;
+    margin-top: 20px;
+    overflow: auto;
+    
+}
+
+#main-footer a{
+    color: #fff;
+}
+
+#main-footer .copy{
+    padding: 20px 0 0 0;
+}
+
+#main-footer .footer-left{
+    float: left;
+    width: 30%;
+}
+
+#main-footer .footer-right{
+    float: right;
+    width: 70%;
+}
+
+#main-footer .footer-nav{
+    float: left;
+    font-size: 1.3em;
+    width: 31%;
+    padding: 20px 0 20px 0;
+    margin-right: 10px;
+}
+
+#main-footer .footer-nav li{
+    padding: 5px 0 5px 0;
+    list-style:circle;
+}
+
+@media only screen and (max-width: 1024px) {
+    .banner{
+        width: 100%;
+    }
+
+    .top-reg{
+        margin: 6em 15em;
+    }
+
+    #login_form{
+        width: 90%;
+    }
+
+    #main-footer .copy{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 580px){
+    *{
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .banner{
+        width: 100%;
+        height: 28em;
+    }
+
+    .banner-text{
+        font-size: 3.5rem;
+        text-align:start;
+    }
+
+    .top-reg{
+        margin: auto;
+        margin-top: 4em;
+        width: 90%;
+        padding: .9rem;
+    }
+
+    #login_form{
+        width: 90%;
+    }
+
+    input{
+        width: 80%;
+    }
+
+    #login{
+        width: 90%;
+    }
+
+    #candidates{
+        flex-direction: column; 
+    }
+
+    .cadidate-card{
+        width: 90%;
+        margin-top: 1em;
+    }
+
+    h2,.registration-text{
+        font-size: 1.6rem;
+    }
+
+    label{
+        font-size: 1.2rem;
+    }
+
+    .bar{
+        margin: 0;
+        width: 100%;
+    }
+
+    .inside{
+        margin:0;
+        font-size: 1em;
+    }
+
+    #main-nav{
+        width: 80%;
+    }
+
+    #content{
+        float: none;
+        width: 89%;
+    }
+
+    #sidebar{
+        float: none;
+        width: 100%;
+    }
+
+    #main-footer .footer-left,#main-footer .footer-right{
+        float: none;
+        width: 100%;
+    }
+
+    #main-footer .footer-nav{
+        float: none;
+        width: 100%;
+
+    }
+}
