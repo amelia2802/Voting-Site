@@ -177,7 +177,7 @@ h2{
     list-style:circle;
 }
 
-/*@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .banner{
         width: 100%;
     }
@@ -193,7 +193,7 @@ h2{
     #main-footer .copy{
         text-align: center;
     }
-}*/
+}
 
 @media only screen and (max-width: 580px){
     *{
